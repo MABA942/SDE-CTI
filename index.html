@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Referencias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de Referencias</h1>
+        <form id="searchForm">
+            <input type="text" id="keyword" name="keyword" placeholder="Buscar por Descripción">
+            <button type="submit" onclick="searchByDescription()">Buscar por Descripción</button>
+            <input type="text" id="referencia" name="referencia" placeholder="Buscar por No. De Referencia">
+            <button type="submit" onclick="searchByReference()">Buscar por No. De Referencia</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
